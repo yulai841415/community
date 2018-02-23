@@ -19,9 +19,9 @@ chmod -R 777 vendor
 ```
 4、在项目根目录，找到.env.example，复制一份，修改名称为.env
 ```
-cp .env.example .env
+cp .env.local.example .env
 ```
-5、生成安全机制
+5、生成安全机制 即.env 文件中的 APP_KEY
 ```
 php artisan key:generate
 ```
