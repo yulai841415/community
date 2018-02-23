@@ -17,7 +17,7 @@ chmod -R 777 bootstrap
 chmod -R 777 storage
 chmod -R 777 vendor
 ```
-4、在项目根目录，找到.env.example，复制一份，修改名称为.env
+4、在项目根目录，找到.env.local.example，复制一份，修改名称为.env
 ```
 cp .env.local.example .env
 ```
